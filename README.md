@@ -4,15 +4,13 @@ Projeto gerado usando [Angular CLI](https://github.com/angular/angular-cli) vers
 
 ## Development server
 
+Executar `npm install` para baixar as dependências do node,
+
 Executar `ng serve` para dev server. Nevegar para `http://localhost:4200/`. O app será recarregado automaticamente ao ter uma alteração nos arquivos.
-
-## Code scaffolding
-
-Executar `ng generate component component-name` para gerar um novo component. Pode ser usado também `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Executar `ng build` para fazer o build do projeto. Tos artefatos de build ficarão em `dist/`. Use o `-prod` flag para build de produção.
+Executar `ng build` para fazer o build do projeto. Os artefatos de build ficarão em `dist/`. Use o `-prod` flag para build de produção.
 
 ## Executando unit tests
 
@@ -25,4 +23,4 @@ Executar `ng e2e` para executar os end-to-end tests via [Protractor](http://www.
 ## Mais informações
 
 [Yan Github1](https://github.com/yan-guilherme).
-[Yan Github1](https://github.com/axnct).
+[Yan Github2](https://github.com/axnct).
