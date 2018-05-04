@@ -1,0 +1,49 @@
+<button (click)="cadastrarCliente()" class="metro-button" mat-raised-button color="accent">
+  <mat-icon>add</mat-icon>
+  <span style="line-height: 1px;">Novo</span>
+</button>
+
+
+<table class="table mt-20" [class.table-hover]="tableHover" [class.table-striped]="tableStriped" [class.table-condensed]="tableCondensed"
+      [class.table-bordered]="tableBordered">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>CPF/CNPJ</th>
+          <th>E-mail</th>
+          <th>Celular</th>
+          <th>Localização</th>
+          <th>Status</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr *ngFor="let clientes of models">
+          <td>{{ clientes.name }}</td>
+          <td>{{ clientes.federalId }}</td>
+          <td>{{ clientes.email }}</td>
+          <td>{{ clientes.celular }}</td>
+          <td>{{ clientes.localizacao }}</td>
+          <td>
+            <mat-icon> {{ clientes.active ? 'clear' : 'done' }} </mat-icon>
+          </td>
+                
+          <td>            
+            <button mat-icon-button [matMenuTriggerFor]="menu">
+              <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item (click)="editar(clientes.clienteId)">
+                <mat-icon> edit </mat-icon>
+                <span> Editar </span>
+              </button>
+              <button mat-menu-item (click)="delete(clientes)">
+                <mat-icon> delete </mat-icon>
+                <span> Remover </span>
+              </button>
+            </mat-menu>
+          </td>
+        </tr>
+      </tbody>
+    </table>

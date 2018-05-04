@@ -1,27 +1,28 @@
-# TesteAngularScc4
+# Teste Angular Scc4
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+Projeto gerado usando [Angular CLI](https://github.com/angular/angular-cli) versão 1.7.4.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Executar `ng serve` para dev server. Nevegar para `http://localhost:4200/`. O app será recarregado automaticamente ao ter uma alteração nos arquivos.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Executar `ng generate component component-name` para gerar um novo component. Pode ser usado também `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Executar `ng build` para fazer o build do projeto. Tos artefatos de build ficarão em `dist/`. Use o `-prod` flag para build de produção.
 
-## Running unit tests
+## Executando unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Executar `ng test` para executar os tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Executando end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Executar `ng e2e` para executar os end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Mais informações
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[Yan Github1](https://github.com/yan-guilherme).
+[Yan Github1](https://github.com/axnct).

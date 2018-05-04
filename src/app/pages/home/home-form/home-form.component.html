@@ -1,0 +1,120 @@
+<form [formGroup]="form" (ngSubmit)="save()">
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Nome *</div>
+                <input matInput id="name" type="text" floatPlaceholder="never" name="name" formControlName="name" #name>
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>CPF/CNPJ *</div>
+                <input matInput id="federalId" type="text" floatPlaceholder="never" name="federalId" formControlName="federalId" #federalId>
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>RG *</div>
+                <input matInput id="registration" type="text" floatPlaceholder="never" name="registration" formControlName="registration"
+                    #registration>
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Telefone *</div>
+                <input matInput id="phone" type="text" floatPlaceholder="never" name="phone" formControlName="phone" #phone>
+            </mat-form-field>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Telefone 2 *</div>
+                <input matInput id="phone2" type="text" floatPlaceholder="never" name="phone2" formControlName="phone2" #phone2>
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>E-mail *</div>
+                <input matInput id="email" type="text" floatPlaceholder="never" name="email" formControlName="email" #email>
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>E-mail 2 *</div>
+                <input matInput id="emailCollection" type="text" floatPlaceholder="never" name="emailCollection" formControlName="emailCollection"
+                    #emailCollection>
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Telefone Residencial *</div>
+                <input matInput id="residentialPhone" type="text" floatPlaceholder="never" name="residentialPhone" formControlName="residentialPhone"
+                    #residentialPhone>
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Telefone Comercial *</div>
+                <input matInput id="comercialPhone" type="text" floatPlaceholder="never" name="comercialPhone" formControlName="comercialPhone"
+                    #comercialPhone>
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Contato de Emergência *</div>
+                <input matInput id="emergencyContact" type="text" floatPlaceholder="never" name="emergencyContact" formControlName="emergencyContact"
+                    #emergencyContact>
+            </mat-form-field>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Data de Aniversário *</div>
+                <input matInput id="birthday" type="text" floatPlaceholder="never" name="birthday" formControlName="birthday" #birthday>
+            </mat-form-field>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field floatPlaceholder="never">
+                <div>Gênero *</div>
+                <input matInput id="gender" type="text" floatPlaceholder="never" name="gender" formControlName="gender" #gender>
+            </mat-form-field>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <mat-radio-group class="radio-group" formControlName="active" id="active" name="active">
+                <mat-radio-button [value]="true">
+                    Ativo
+                </mat-radio-button>
+
+                <mat-radio-button [value]="false">
+                    Desativado
+                </mat-radio-button>
+            </mat-radio-group>
+        </div>
+    </div>
+
+
+    <button class="btn btn-success" type="submit" mat-raised-button color="accent">
+        Cadastrar Cliente
+    </button>
+
+</form>
