@@ -1,4 +1,4 @@
-# Teste Angular Scc4
+# Angular Scc4
 
 Projeto gerado usando [Angular CLI](https://github.com/angular/angular-cli) versão 1.7.4.
 
